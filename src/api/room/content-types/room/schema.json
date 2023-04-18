@@ -44,6 +44,9 @@
     },
     "Beds": {
       "type": "integer"
+    },
+    "Price_Per_Extra_Person": {
+      "type": "decimal"
     }
   }
 }
