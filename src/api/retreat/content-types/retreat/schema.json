@@ -12,30 +12,34 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
-    "description": {
+    "Description": {
       "type": "richtext"
     },
-    "starts": {
+    "Starts": {
       "type": "date"
     },
-    "ends": {
+    "Ends": {
       "type": "date"
     },
-    "price": {
+    "Price": {
       "type": "decimal"
     },
-    "cover": {
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Subtitle": {
+      "type": "string"
     }
   }
 }
