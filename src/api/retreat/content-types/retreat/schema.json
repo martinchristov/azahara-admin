@@ -40,6 +40,10 @@
     },
     "Subtitle": {
       "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
