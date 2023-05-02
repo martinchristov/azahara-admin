@@ -50,6 +50,9 @@
     },
     "Max_Beds": {
       "type": "integer"
+    },
+    "Calendar_ID": {
+      "type": "string"
     }
   }
 }
