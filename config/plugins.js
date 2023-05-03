@@ -25,6 +25,10 @@
             defaultReplyTo: 'cortijoazahara1@gmail.com',
           },
         },
+      },
+      'fields-array': {
+        enabled: true,
+        resolve: './src/plugins/fields-array'
       }
       // ...
     });
