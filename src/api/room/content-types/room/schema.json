@@ -53,12 +53,7 @@
       "type": "integer"
     },
     "Calendar_ID": {
-      "type": "json",
-      "pluginOptions": {
-        "fields-array": {
-          "enabled": true
-        }
-      }
+      "type": "string"
     }
   }
 }
