@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kalimas",
+  "info": {
+    "singularName": "kalima",
+    "pluralName": "kalimas",
+    "displayName": "Kalima",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "arabic": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Verb / فعل",
+        "Noun / اسم"
+      ]
+    },
+    "meanings": {
+      "type": "json"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::kalima.kalima"
+    },
+    "arabicPlural": {
+      "type": "string"
+    },
+    "translit": {
+      "type": "string"
+    },
+    "translitPlural": {
+      "type": "string"
+    }
+  }
+}
