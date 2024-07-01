@@ -29,6 +29,9 @@
       'fields-array': {
         enabled: true,
         resolve: './src/plugins/fields-array'
-      }
+      },
+      'import-export-entries': {
+        enabled: true
+      },
       // ...
     });
